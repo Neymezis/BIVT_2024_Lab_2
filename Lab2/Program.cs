@@ -294,7 +294,7 @@ public class Program
         {
             double x = double.Parse(Console.ReadLine());
             double y = double.Parse(Console.ReadLine());
-            if (x >= 0 && Math.Sin(x) >= y) answer++;
+            if (x >= 0 && x<=Math.PI && y>=0 && Math.Sin(x) >= y) answer++;
         }
         // end
 
